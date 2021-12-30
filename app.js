@@ -56,8 +56,16 @@ app.get('/', function(req, res) {
 });
 
 
+const favicon = require("serve-favicon");
 
-app.listen(5500, function() {
-    console.log("Listening to port" + chalk.green(5500));
+
+
+//var favicon = require('serve-favicon');
+app.use(favicon(path.join(__dirname, 'public/images', 'favicon.ico')));
+//app.set('port', process.env.PORT || 3000);
+var port = process.env.PORT || 3000;
+
+//app.listen(port);
+app.listen(port, function() {
+    console.log("Listening to port" + chalk.green(port));
 });
-//creating a portnodemonapp.js
