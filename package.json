@@ -14,10 +14,13 @@
         "express": "^4.17.1",
         "express-load": "^1.1.16",
         "http-server": "^14.0.0",
-        "mongoose": "^5.7.12"
+        "mongoose": "^5.7.12",
+        "favicons": "^6.2.2",
+        "serve-favicon": "^2.5.0"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
     },
     "author": "smitha",
     "license": "ISC"
