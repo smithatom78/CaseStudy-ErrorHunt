@@ -37,7 +37,7 @@ app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true }));
 //app.use(bodyParser.urlencoded({ extended: true }));
 //corrected by smitha jacob
-// Part #1 Point 4
+// Part #1 Point 4 corrected
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '/public')));
 
