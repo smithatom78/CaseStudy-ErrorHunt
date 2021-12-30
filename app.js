@@ -21,7 +21,6 @@ const nav = [{
     ]
     // Part #1 Point 1,changed main as app.js in package.json
     // Part #1 Point 2,changed the dependencies  express-load": "^1.1.16" in package.json
-    //installed chalk also
 const loginRouter = require('./src/routes/loginroute');
 const signupRouter = require('./src/routes/signuproute');
 const homeRouter = require('./src/routes/homerouter');
