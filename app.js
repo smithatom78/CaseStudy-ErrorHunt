@@ -37,7 +37,7 @@ app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true }));
 //app.use(bodyParser.urlencoded({ extended: true }));
 //corrected by smitha jacob
-// Part #1 Point 4 corrected
+// Part #1 Point 4
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '/public')));
 
@@ -56,16 +56,8 @@ app.get('/', function(req, res) {
 });
 
 
-const favicon = require("serve-favicon");
 
-
-
-//var favicon = require('serve-favicon');
-app.use(favicon(path.join(__dirname, 'public/images', 'favicon.ico')));
-//app.set('port', process.env.PORT || 3000);
-var port = process.env.PORT || 3000;
-
-//app.listen(port);
-app.listen(port, function() {
-    console.log("Listening to port" + chalk.green(port));
+app.listen(5500, function() {
+    console.log("Listening to port" + chalk.green(5500));
 });
+//creating a portnodemonapp.js

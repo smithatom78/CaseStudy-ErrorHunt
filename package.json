@@ -5,22 +5,16 @@
     "main": "app.js",
     "dependencies": {
         "body-parser": "^1.19.0",
-        "bson": ">=1.1.4",
         "chalk": "^3.0.0",
         "cors": "^2.8.5",
         "ejs": "^2.7.2",
         "express": "^4.17.1",
         "express-load": "^1.1.16",
-        "favicons": "^6.2.2",
         "http-server": "^14.0.0",
-        "mongoose": "^5.7.12",
-        "mpath": ">=0.8.4",
-        "mquery": ">=3.2.3",
-        "serve-favicon": "^2.5.0"
+        "mongoose": "^5.7.12"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node app.js"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "smitha",
     "license": "ISC"
